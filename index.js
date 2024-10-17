@@ -12,14 +12,14 @@ app.post("/save", (req, res) => {
     let transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "ameymali54@icloud.com",
-            pass: "onkr-axrl-ubof-dzye"
+            user: "ameymali2@gmail.com",
+            pass: "ftkzvjcbeprrzggj"
         }
     });
 
     let mailOptions = {
-        from: "ameymali54@icloud.com" ,
-        to: "ameymali2@gmail.com",
+        from: "ameymali2@gmail.com" ,
+        to: "ameymali54@icloud.com",
         subject: `Enquiry from ${name}`,
         text: `Phone: ${phone}\nQuery: ${query}`
     };
